@@ -39,10 +39,8 @@ Two fitting engines build the chemistry term — **keep whichever suits your goa
 | Parameters | GP/AMPA/Gly share 5 constants; **Pi, NH₄ get their own effective constants** | **one shared 7-constant set**; Pi, NH₄, Mn derived from the parent trajectories |
 | Per-species time axes | must share a grid (merged) | independent grids allowed |
 | Best for | reproducing the paper's Table 2; speed | a single, mechanistically coupled model |
-| Typical R² | GP/AMPA/Gly ≈ 0.99; Pi ≈ 0.95; NH₄ ≈ 0.94 | GP 0.99, AMPA 0.97, Gly 0.93, Mn 0.97; Pi 0.60, NH₄ 0.44 |
 
-They give slightly different numbers (k_GP_loss 1.92e-3 vs 2.17e-3; t½ 6.0 vs 5.4 h; S_AMPA
-0.35 vs 0.30). The closed-form engine is the paper's own staged method, and the extra freedom
+They give slightly different numbers. The closed-form engine is the paper's own staged method, and the extra freedom
 in its Pi/NH₄ sub-models is what lets those byproducts reach high R². The ODE engine is the
 stricter, fully-coupled realization of the SI derivation: one parameter set drives everything,
 which is more rigorous but cannot bend Pi/NH₄ to their own data (a physically meaningful
