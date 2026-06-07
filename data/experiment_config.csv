@@ -1,0 +1,7 @@
+parameter,value,unit,source,description
+C0,300,uM,experiment,Influent (parent) concentration during step
+t_s,160,min,experiment,Step -> washout switch time
+N,4.0,-,Br tracer,Gamma RTD shape (tanks-in-series)
+tau_step,0.645838,min,Br tracer,Gamma scale; mean hydraulic residence = N*tau_step
+tau_pulse,4.12726,min,Br tracer,Washout time constant
+retardation,2.5,-,reactive,Step-residence multiplier for adsorbing species (>=1)

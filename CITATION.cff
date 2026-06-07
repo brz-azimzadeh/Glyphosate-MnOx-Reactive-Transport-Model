@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the associated paper below."
+title: "Reactive-Transport Model for Coupled Adsorption-Oxidation at Mn-Oxide Interfaces"
+abstract: >-
+  Reactive-transport model that recovers apparent first-order rate constants and
+  pathway-selectivity metrics from flow-through reactor breakthrough curves,
+  coupling reaction kinetics with a gamma residence-time distribution. Provides
+  both a closed-form (semi-analytical) engine and a fully-coupled numerical-ODE
+  engine, with reactor hydraulics fixed from a conservative tracer test.
+authors:
+  - family-names: "Azimzadeh"
+    given-names: "Behrooz"
+    orcid: "https://orcid.org/0000-0001-9497-9843"
+    affiliation: "Soil and Crop Sciences, School of Integrative Plant Science, Cornell University"
+  - family-names: "Martínez"
+    given-names: "Carmen Enid"
+    orcid: "https://orcid.org/0000-0001-8553-2118"
+    affiliation: "Soil and Crop Sciences, School of Integrative Plant Science, Cornell University"
+repository-code: "https://github.com/brz-azimzadeh/Glyphosate-MnOx-Reactive-Transport-Model"
+license: MIT
+version: "1.0.0"
+date-released: "2026-06-06"
+keywords:
+  - reactive transport
+  - geochemical modeling
+  - adsorption-oxidation
+  - residence time distribution
+  - manganese oxide
+  - glyphosate
+preferred-citation:
+  type: article
+  title: "Chemical Choreography at the Mn Oxide Interface: Protein Association Modulates Glyphosate Bonding Configurations and Favors the AMPA Oxidation Pathway"
+  authors:
+    - family-names: "Azimzadeh"
+      given-names: "Behrooz"
+    - family-names: "Martínez"
+      given-names: "Carmen Enid"
+  journal: "Environmental Science & Technology"
+  year: 2025
+  volume: 59
+  issue: 36
+  start: 19513
+  end: 19525
+  doi: "10.1021/acs.est.5c09711"

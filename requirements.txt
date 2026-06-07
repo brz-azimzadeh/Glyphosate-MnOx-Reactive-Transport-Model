@@ -1,0 +1,10 @@
+# Core scientific stack for the reactive-transport model.
+# Pin to the versions you used (run `pip freeze` and paste exact versions)
+# for full reproducibility before release.
+
+numpy
+scipy            # gamma RTD (special.gammaincc), minimize (trust-constr), curve_fit
+pandas           # reading/handling breakthrough-curve data
+matplotlib       # observed-vs-predicted figures
+scikit-learn     # RMSE / R2 metrics (sklearn.metrics)
+brokenaxes       # optional: broken y-axis overlay (degrades gracefully if absent)

@@ -1,0 +1,17 @@
+# Outputs
+output/
+*.png
+!docs/*.png
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
