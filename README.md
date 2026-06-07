@@ -331,9 +331,7 @@ Please cite both the paper and the software (see [`CITATION.cff`](CITATION.cff))
 
 ## License
 
-Released under the MIT License (see `LICENSE`). **Before publishing, confirm that MIT is
-compatible with any Cornell University and NSF/USDA grant requirements for code produced
-under your awards**, and update `LICENSE` and `CITATION.cff` if you choose differently.
+Released under the MIT License (see [`LICENSE`](LICENSE)).
 
 ## Data
 
