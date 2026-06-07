@@ -53,24 +53,6 @@ half-life `t½ = ln2 / k_GP_loss`, per-species R², and observed-vs-predicted fi
 
 Full equations and modeling notes are in [`docs/MODEL_DESCRIPTION.md`](docs/MODEL_DESCRIPTION.md).
 
-## Validation against the paper
-
-Running the **closed-form** engine on the included real data (Bir, pH 4.6, no BSA)
-reproduces the well-identified quantities in Table 2 of the paper almost exactly:
-
-| Quantity | This code | Paper (Table 2) |
-|---|---|---|
-| k_GP_loss | 1.92e-3 min⁻¹ | 1.93e-3 min⁻¹ |
-| k_Mn_ox | 1.37e-2 min⁻¹ | 1.38e-2 min⁻¹ |
-| S_AMPA (selectivity) | 0.35 | 0.33 |
-| Parent half-life | 6.0 h | 6 h |
-| Fit quality (GP/AMPA/Gly) | R² ≈ 0.996 | — |
-
-The byproduct **loss** constants (k_AMPA_loss, k_Gly_loss) are *weakly identified*
-by step+washout data: fixing them to the published values versus letting them float
-changes R² by < 0.001. They are therefore best reported with the published values
-held fixed (see `fixed=` below), and interpreted with that caveat.
-
 ---
 
 ## Repository structure
